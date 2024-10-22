@@ -1,0 +1,50 @@
+.clock {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("clock.jpg");
+    background-size: cover; 
+    background-position: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#hour, #minutes, #seconds {
+    background-color: black;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%); 
+    position: absolute;
+    transform-origin: bottom center; 
+    
+}
+
+#hour {
+    height: 25%;
+    width: 1.8%;
+    top: 25%; 
+    opacity: 0.8;
+}
+
+#minutes {
+    height: 30%;
+    width: 1.6%;
+    top: 20%; 
+    opacity: 0.8;
+}
+
+#seconds {
+    height: 40%;
+    width: 1%;
+    top: 10%; 
+    opacity: 0.8;
+}
+
+.digital-clock {
+    font-size: 2em; 
+    margin-top: 10px; 
+    color: black; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+   
+}
